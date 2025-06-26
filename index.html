@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Little Big Dreams Foundation</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+      background-color: #f8fbff;
+    }
+
+    .hero {
+      background: url('hero.jpg') center center/cover no-repeat;
+      color: white;
+      height: 340px;
+      position: relative;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      background: rgba(0, 123, 255, 0.6);
+      top: 0; bottom: 0; left: 0; right: 0;
+    }
+
+    .hero-text {
+      position: relative;
+      text-align: center;
+      padding-top: 100px;
+    }
+
+    .tab-button.active {
+      background-color: #007bff !important;
+      color: white !important;
+    }
+
+    .tab-content {
+      display: none;
+      padding: 30px 15px;
+      max-width: 960px;
+      margin: auto;
+    }
+
+    .tab-content.active {
+      display: block;
+    }
+
+    .tab-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .tab-buttons .btn {
+      margin: 5px;
+    }
+
+    .section-title {
+      color: #0077b6;
+      margin-bottom: 20px;
+    }
+
+    pre {
+      white-space: pre-wrap;
+      word-wrap: break-word;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="hero">
+    <div class="hero-text container text-white">
+      <h1>Little Big Dreams</h1>
+      <p class="lead">Empowering dreams, one child at a time.</p>
+    </div>
+  </div>
+
+  <div class="tab-buttons container my-4">
+    <button class="btn btn-outline-primary tab-button active" onclick="openTab(event, 'about')">About Us</button>
+    <button class="btn btn-outline-primary tab-button" onclick="openTab(event, 'whatwedo')">What We Do</button>
+    <button class="btn btn-outline-primary tab-button" onclick="openTab(event, 'team')">Team</button>
+    <button class="btn btn-outline-primary tab-button" onclick="openTab(event, 'impact')">Impact</button>
+    <button class="btn btn-outline-primary tab-button" onclick="openTab(event, 'contact')">Contact Us</button>
+  </div>
+
+  <div id="about" class="tab-content active">
+    <h2 class="section-title">About Us</h2>
+    <pre>Little Big Dreams was born from a deep compassion for bright young minds held back by lack of resources. We believe every child – regardless of background – deserves the chance to rewrite its story. Our endeavour is to transform the aspirations of underprivileged children and young adults striving for higher education and career success.
+
+In India and around the globe, students from low-income backgrounds often struggle to access traditional student loans or financial aid due to lack of credit history or institutional barriers. A large number of promising kids are dimmed by lack of resources. An even bigger challenge prevails for deserving kids pursuing higher education, as fees for such courses is expensive and unaffordable.
+
+By stepping in to meet these essential needs, and facilitating access to mentoring and financial aid, we restore hope and unlock potential.
+
+We believe that investing in one life has ripple effects far beyond the classroom. Every child we support becomes a beacon of inspiration for their families and communities, sowing seeds of transformation and positive change.</pre>
+  </div>
+
+  <div id="whatwedo" class="tab-content">
+    <h2 class="section-title">What We Do</h2>
+    <pre>1. Sponsoring Education for the Economically Weak
+We believe that every child, regardless of background, has the opportunity to learn and thrive. Our NGO identifies students from low-income families through a thorough process that includes assessing the child’s potential, home visits, background checks, and detailed discussions with the family. Only after this careful assessment do we provide financial support for their school, college or coaching. This ensures that our resources reach the most deserving children who are motivated to learn and grow.
+
+2. Providing Educational Infrastructure
+Access to proper learning tools can significantly impact a child's academic journey. Our organization bridges this gap by supplying essential educational materials such as books, notebooks, school bags, and stationery. In addition, we help equip our students with digital resources like computers and laptops to ensure students are not left behind in today’s technology-driven world.
+
+3. Mentoring and Career Counselling
+To guide students beyond academics, we organize regular mentoring and career counselling sessions. These interactions help children identify their interests and strengths, set career goals, and develop life skills. We connect them with professionals and volunteers who provide one-on-one guidance, motivation, and exposure to various career paths, helping them make informed choices about their future.
+
+4. Collaborating for Skill Development and Job-Oriented Training
+To ensure long-term impact, we actively collaborate with other organizations, training institutes, and industry partners to provide skill development and job-oriented training programs. By equipping students with practical, employable skills, we aim to enhance their confidence and readiness for the job market, ultimately empowering them to build stable and independent futures.
+
+5. Scholarship Evaluation and Facilitation
+Many students miss out on valuable opportunities simply due to a lack of awareness or guidance. Our team actively researches available scholarship options—both government and private—and helps eligible students in the application process. From filling out application forms to preparing necessary documents, we support them through every step, increasing their chances of securing the financial aid they need to pursue higher education.</pre>
+  </div>
+
+  <div id="team" class="tab-content">
+    <h2 class="section-title">Team</h2>
+    <pre><strong>Deepak Jain</strong>
+Deepak spent over 15 years in the corporate sector, but a quiet calling to do something more meaningful kept growing in him over time. In 2021, he decided to take a step back from corporate life and began volunteering with children from underserved communities.
+What started as a few hours of teaching each week soon became a deeper commitment. Over the past four years, Deepak has devoted his time to supporting underprivileged children—helping them with their studies, listening to their struggles, and doing what he could to ensure they did not fall behind simply because of their circumstances.
+His experience on the ground made him acutely aware of the challenges faced by many children in accessing basic educational resources. What followed was a gradual but heartfelt journey that led to the formation of Little Big Dreams Foundation, a small initiative focused on educational support for children who need it most. 
+He continues to work closely with the communities he serves, letting their needs and voices shape the direction of the organisation.
+
+<strong>Rashmi Mehta</strong>
+Rashmi Mehta spent 8 years in the corporate sector before a deep desire to give back led her down a different path.
+Since 2017, she has devoted her time to teaching and supporting underprivileged kids, helping them with their education, mentoring them, building their confidence, and simply being a steady presence in their lives. Through this journey, she has witnessed first-hand the socioeconomic barriers that prevent many bright kids from accessing quality education. Touched by this, she co-founded Little Big Dreams Foundation.
+
+<strong>Tarun Dhingreja</strong>
+Tarun – Volunteer & Mentor
+Manager, Performance Reporting – Global Hub Business Services
+
+Tarun brings over two decades of passionate commitment to supporting underprivileged children. While he currently leads the Performance Reporting team at Global Hub Business Services, his heart has always been in social impact.
+
+His journey began more than 20 years ago when he, along with a group of friends, started visiting government schools around Bhimashankar. They would speak with teachers to understand their most pressing needs—from basic supplies to educational materials—and then mobilize funds through friends and family to meet those requirements.
+
+Tarun’s partnership with his college friend Deepak, who shares a similar vision, led him to become a key part of LittleBig Dreams. United by a common goal, they hope to reach and uplift many more children, one small dream at a time.
+
+Tarun believes that sustainable change starts with collective effort and is committed to creating opportunities for every child to thrive.</pre>
+  </div>
+
+  <div id="impact" class="tab-content">
+    <h2 class="section-title">Impact</h2>
+    <pre>Our programs have directly supported dozens of students with educational sponsorships, mentoring, and infrastructure. We’re currently collecting detailed impact stories and metrics. Stay tuned for updates.</pre>
+  </div>
+
+  <div id="contact" class="tab-content">
+    <h2 class="section-title">Contact Us</h2>
+    <p>Email: <a href="mailto:info@littlebigdreams.in">info@littlebigdreams.in</a></p>
+  </div>
+
+  <script>
+    function openTab(event, tabId) {
+      document.querySelectorAll('.tab-content').forEach(tab => tab.classList.remove('active'));
+      document.querySelectorAll('.tab-button').forEach(btn => btn.classList.remove('active'));
+      document.getElementById(tabId).classList.add('active');
+      event.currentTarget.classList.add('active');
+    }
+  </script>
+
+</body>
+</html>
